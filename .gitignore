@@ -1,1 +1,7 @@
-node_modules
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore the file containing environmental variables
+.env
+
+# Ignore the key files: bin/server.cert &  bin/server.key
