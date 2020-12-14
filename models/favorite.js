@@ -5,12 +5,12 @@ const favoriteSchema = new Schema(
   {
     user: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "user",
+      ref: "User",
     },
     campsites: [
       {
         type: mongoose.Schema.Types.ObjectId,
-        ref: "campsite",
+        ref: "Campsite",
       },
     ],
   },
